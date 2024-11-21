@@ -1,0 +1,661 @@
+/* Css reset styles starts here */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Css reset styles ends here */
+
+/* css styles for header section starts here */
+header {
+  display: grid;
+}
+
+.logo-and-heading-items {
+  display: flex;
+  justify-content: space-around;
+  height: 150px;
+  background-color: rgb(238, 231, 231);
+}
+
+.favicon-and-heading-one {
+  display: flex;
+  align-items: center;
+}
+
+.favicon {
+  height: 90px;
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 32px;
+  display: grid;
+  color: navy;
+}
+
+h1 a {
+  text-decoration: none;
+  color: navy;
+}
+
+h1 a:hover {
+  color: rgb(171, 88, 88);
+}
+
+h1 span {
+  font-size: 20px;
+}
+
+h1 span a {
+  text-decoration: none;
+  color: navy;
+}
+
+h1 span a:hover {
+  color: rgb(171, 88, 88);
+}
+
+.mail-to-and-email-link {
+  display: flex;
+  align-items: center;
+}
+
+.mail-to-logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.mail-to-and-email-link a {
+  text-decoration: none;
+  color: rgba(63, 25, 213, 0.354);
+  font-size: 1.1em;
+}
+
+.Call-to-and-tel-link {
+  display: flex;
+  align-items: center;
+}
+
+.call-to-icon {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.Call-to-and-tel-link a {
+  color: rgba(63, 25, 213, 0.354);
+  font-size: 1.7em;
+  text-decoration: none;
+}
+
+.social-media-logo-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.social-media-sites-logo {
+  height: 38px;
+  margin-right: 8px;
+}
+
+.navbar {
+  display: flex;
+  width: 90%;
+  height: 55px;
+  background-color: rgb(24, 31, 28);
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.1em;
+  margin-top: -25px;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-text-items {
+  width: 120px;
+  border-right: 2px solid rgb(228, 218, 218);
+}
+
+.navbar-text-items a {
+  text-decoration: none;
+  color: aqua;
+}
+
+/* css styles for header section ends here */
+/* css styles for main section starts here */
+.Image-of-younger-female-patient-and-male-doctor img {
+  width: 100%;
+  height: 500px;
+  margin-top: -30px;
+  position: relative;
+}
+
+.Image-of-younger-female-patient-and-male-doctor div {
+  height: 300px;
+  width: 600px;
+  background-image: linear-gradient(to right, rgb(16, 16, 101), rgba(255, 0, 0, 0));
+  position: absolute;
+  margin-top: -390px;
+  margin-left: 57px;
+  align-content: center;
+  text-align: center;
+  border-right-width: thin;
+  opacity: 0.7;
+}
+
+.Image-of-younger-female-patient-and-male-doctor div h2 {
+  font-size: 52px;
+  font-weight: bold;
+  color: white;
+  line-height: 70px;
+  margin-left: 30px;
+}
+
+/* Css for image and about section starts here */
+
+.image-and-about-section {
+  display: flex;
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+  justify-content: center;
+  margin-top: 63px;
+  margin-bottom: 63px;
+}
+
+
+.about-section {
+  margin-left: 80px;
+}
+
+h2 {
+  font-size: 55px;
+  font-weight: 400;
+  color: #8365dc;
+  line-height: 60px;
+  margin-bottom: 12px;
+}
+
+.about-section p {
+  font-size: 20px;
+  color: #8579a9;
+  line-height: 30px;
+  margin-right: 140px;
+  margin-bottom: 35px;
+}
+
+.about-section button {
+  background-color: #8365dc;
+  font-size: 18px;
+  padding: 16px 50px;
+  border: none;
+
+}
+
+.about-section button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Css for image and about section ends here */
+
+/* Css for image and appeal for visit section starts here */
+.image-and-appeal-for-visit img {
+  width: 92%;
+  height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.appeal-for-visit {
+  width: 76%;
+  height: 280px;
+  background-color: rgb(194, 218, 146);
+  text-align: center;
+  position: absolute;
+  margin-top: -140px;
+  display: block;
+  margin-left: 12%;
+  margin-right: 12%;
+  box-shadow: 0px 15px 50px -15px #111;
+}
+
+
+.appeal-for-visit h2 {
+  padding-top: 50px;
+}
+
+.appeal-for-visit p {
+  font-size: 20px;
+  color: #8579a9;
+}
+
+.appeal-for-visit button {
+  background-color: #8365dc;
+  color: white;
+  font-size: 18px;
+  padding: 16px 50px;
+  border: none;
+  margin-top: 30px;
+}
+
+.appeal-for-visit button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Css for image and appeal for visit section ends here */
+
+/* Css for offered services section starts here */
+
+.offered-services {
+  margin-top: 220px;
+  width: 92%;
+  margin: 220px auto 50px auto;
+}
+
+.heading-and-para-of-offered-services {
+  display: block;
+  margin: 0 auto 50px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.heading-and-para-of-offered-services p {
+  font-size: 20px;
+  color: #8579a9;
+  line-height: 30px;
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.service-list-items {
+  width: 18%;
+}
+
+.services-list img {
+  height: 150px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #8365dc;
+  margin-bottom: 20px;
+}
+
+.services-list button {
+  background-color: #8365dc;
+  font-size: 18px;
+  padding: 16px 50px;
+  border: none;
+  margin-top: 25px;
+}
+
+.services-list button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Css for offered services section ends here */
+
+/* Css for city view image starts here */
+.city-view-image img {
+  height: 400px;
+  width: 100%;
+}
+
+/* Css for city view image ends here */
+
+/* Css for we serve section starts here */
+.we-serve {
+  display: block;
+  margin: 40px auto 80px auto;
+  width: 90%;
+  text-align: center;
+}
+
+.we-serve h2 {
+  margin-bottom: 20px;
+}
+
+.we-serve button {
+  font-size: 18px;
+  padding: 16px 50px;
+  margin-top: 25px;
+  background-color: white;
+  border: solid navy;
+  border-radius: 25px;
+  width: 170px;
+}
+
+.we-serve-buttons :nth-child(1) {
+  margin-right: 20px;
+}
+
+.we-serve-buttons :nth-child(2) {
+  margin-right: 20px;
+}
+
+.we-serve-buttons :nth-child(3) {
+  margin-right: 20px;
+}
+
+.we-serve-buttons :nth-child(4) {
+  margin-right: 20px;
+}
+
+.we-serve button a {
+  text-decoration: none;
+}
+
+/* Css for we serve section ends here */
+
+/* Css for mission and image section starts here */
+.mission-and-image-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.our-mission-heading-and-para {
+  width: 50%;
+  position: relative;
+  background-color: rgb(194, 218, 146);
+  padding: 155px 180px 155px 50px;
+  height: 390px;
+}
+
+.our-mission-heading-and-para p {
+  font-size: 20px;
+  color: #8579a9;
+  line-height: 30px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.our-mission-heading-and-para button {
+  background-color: #8365dc;
+  font-size: 18px;
+  padding: 16px 60px;
+  border: none;
+  margin-top: 25px;
+}
+
+.our-mission-heading-and-para button a {
+  text-decoration: none;
+  color: white;
+}
+
+.images-and-referral-brochure {
+  background-color: #8365dc;
+  width: 170px;
+  height: 590px;
+  position: absolute;
+  border-radius: 75px;
+}
+
+.image-and-links-for-insurance-referral-and-brochure {
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+
+.images-and-referral-brochure div p {
+  font-size: 27px;
+  color: white;
+  line-height: 30px;
+  text-align: center;
+}
+
+.images-and-referral-brochure div img {
+  height: 70px;
+  margin-left: 45px;
+  margin-bottom: 10px;
+}
+
+.image-of-nurse-and-elder-patient img {
+  height: 700px;
+  max-width: 730px;
+  position: relative;
+}
+
+/* Css for mission and image section ends here */
+
+/* css for footer section starts here */
+.footer-content {
+  width: 100%;
+  display: flex;
+  background-color: #8365dc;
+  height: 500px;
+}
+
+.Contact-information {
+  width: 70%;
+}
+
+.Contact-information div h2 {
+  color: white;
+}
+
+.Contact-information div p {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.Contact-information div img {
+  height: 75px;
+}
+
+.Contact-information-and-para {
+  margin: 60px auto 60px 80px;
+}
+
+
+.map-pin-and-address-and-mail-and-phone-icon-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.map-pin-and-address {
+  display: flex;
+  align-items: center;
+  width: 35%;
+}
+
+.map-pin-and-address address {
+  color: white;
+  font-size: 22px;
+  margin-left: 15px;
+  font-weight: 100;
+}
+
+.mail-and-phone-icon-and-email-tel-fax {
+  display: flex;
+  align-items: center;
+  width: 35%;
+}
+
+.mail-and-phone-icon-and-email-tel-fax div a {
+  display: grid;
+  color: white;
+  font-size: 22px;
+  margin-left: 15px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.navbar-items ul {
+  display: flex;
+}
+
+.navbar-items {
+  margin-left: 70px;
+  margin-top: 100px;
+}
+
+.navbar-items ul li {
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.navbar-items ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.Contact-information span {
+  color: white;
+  font-size: 14px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  margin-left: 70px;
+}
+
+.world-icon-image {
+  width: 30%;
+  align-content: center;
+}
+
+.world-icon-image img {
+  height: 400px;
+}
+
+/* css for footer section ends here */
+/* css styles for main section ends here */
